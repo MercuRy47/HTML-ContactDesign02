@@ -1,0 +1,118 @@
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.image-container {
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+.image-container h2 {
+    font-family: 'Common Pixel', sans-serif;
+    margin-top: -0.5rem;
+}
+
+.image-container p {
+    font-family: 'Common Pixel', sans-serif;
+    margin-top: -0.5rem;
+}
+
+.links-container a {
+    display: block;
+    width: 80px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 0.5rem;
+    text-decoration: none;
+    font-family: 'Common Pixel', sans-serif;
+}
+   
+.w3-container a {
+    padding: 0.25rem;
+    font-size: 2.5rem;
+}
+
+.w3-col {
+    color: #fff;
+    margin-top: 1rem;
+    font-family: 'Common Pixel', sans-serif;
+}
+
+.inline-a {
+    display: inline-block;
+    width: 147px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 0.5rem;
+    text-decoration: none;
+}
+
+/* * * *  * * * */
+
+.bg {
+    background: url(/gif.image/bg1.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -3;
+}
+
+
+/* * * *  * * * */
+
+
+.links-container .dis {
+    position: relative;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em 0.25em;
+    width: 1rem;
+    height: 3.5rem;
+    background-color: #212121;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+  }
+  
+.dis span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    height: 2.5em;
+    background-color: #000;
+    border-radius: 0.2em;
+    font-size: 1.2rem;
+    color: #fff;
+    border: 0.08em solid #fff;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+  }
+  
+.dis span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+.dis span:not(hover) {
+    transition: all 1s;
+  }
